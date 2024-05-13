@@ -6,13 +6,26 @@ Created on Sun Dec 31 16:19:58 2023
 """
 import pygame
 import sys
+import os
 
 from raycaster_class_optimized import Raycaster
 from player_class import Player
 from grid_class import Grid_Map
 import gui_class
+import split_gif_to_frames
+
+def load_gif():
+  print('\nIf an error occurs, please rerun the file.')
+  print('Running the file for the first time may take some time.')
+  print('Loading...')
+  if os.listdir('images/jinitaimei/') == []:
+    split_gif_to_frames.extract_images('gif/jinitaimei_1.gif','images/jinitaimei/',12)
+  if os.listdir('images/rickroll/') == []:
+    split_gif_to_frames.extract_images('gif/rickroll.gif','images/rickroll/',12)
+  print('Done.')
 
 pygame.init()
+load_gif()
 tile_size = 20
 map_size = 20
 map_scr_w, map_scr_h = map_size * tile_size, map_size * tile_size
