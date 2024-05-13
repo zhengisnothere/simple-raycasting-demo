@@ -78,7 +78,7 @@ class Grid():
     elif image_type=='video':
       self.animation_index=0
       self.animation_set=image_set
-      self.animation_speed=0.3
+      self.animation_speed=0.25
       self.map_image_set=[pygame.transform.scale(i,(size,size)) for i in self.animation_set]
       self.texture=self.animation_set[self.animation_index]
       self.image=self.map_image_set[self.animation_index]
