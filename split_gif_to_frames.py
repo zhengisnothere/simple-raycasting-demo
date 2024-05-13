@@ -23,6 +23,3 @@ def extract_images(gif_path,out_path,frame_rate):
     for i in range(num_key_frames):
       im.seek(floor(im.n_frames / num_key_frames * i))
       im.save(out_path+'{}.png'.format(i))
-
-extract_images('gif/jinitaimei_1.gif','images/jinitaimei/',12)
-print('done')
