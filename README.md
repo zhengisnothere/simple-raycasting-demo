@@ -2,6 +2,7 @@
 
 - Description
   - a simple raycasting demo
+  - made with pygame
 ---
 - How To Play
   - run main.py 
