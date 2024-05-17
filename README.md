@@ -3,8 +3,10 @@
 - ## Description
   - a simple raycasting demo
   - made with Pygame
+  - support .png and .gif texture
   - screenshots:
-    - !['1'](screenshots/1.png)
+    - !['1'](screenshots/1.jpg)
+    - !['2'](screenshots/2.jpg)
 ---
 - ## How To Play
   - <ins> make sure that you already downloaded _**PIL**_ and _**Pygame**_ </ins>
