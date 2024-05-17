@@ -1,11 +1,13 @@
-# Project-based learning: simple raycasting demo
+# simple raycasting demo
 ---
 - ## Description
   - a simple raycasting demo
   - made with Pygame
-  - support .png and .gif texture
-  - screenshots:
-    - !['1'](screenshots/1.jpg)
+  - what you can learn (although there are no comments)
+    - DDA algorithm
+    - texture mapping
+    - a poorly written GUI class
+  - screenshot:
     - !['2'](screenshots/2.jpg)
 ---
 - ## How To Play
