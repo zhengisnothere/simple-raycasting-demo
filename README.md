@@ -7,8 +7,9 @@
     - DDA algorithm
     - texture mapping
     - a poorly written GUI class
+  - running on replit.com: [demo link](https://replit.com/@ZhengIsHere/simple-raycasting-demo)
   - screenshot:
-    - !['2'](screenshots/2.jpg)
+    - ![2](screenshots/2.jpg)
 ---
 - ## How To Play
   - <ins> make sure that you already downloaded _**PIL**_ and _**Pygame**_ </ins>
