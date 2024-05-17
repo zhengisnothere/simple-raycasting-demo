@@ -7,7 +7,7 @@
     - DDA algorithm
     - texture mapping
     - a poorly written GUI class
-  - running on replit.com: [demo link](https://replit.com/@ZhengIsHere/simple-raycasting-demo)
+  - running on replit.com: <a href='https://replit.com/@ZhengIsHere/simple-raycasting-demo' target='_blank'>demo link</a>
   - screenshot:
     - ![2](screenshots/2.jpg)
 ---
